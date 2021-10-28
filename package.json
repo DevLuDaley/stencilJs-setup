@@ -1,0 +1,19 @@
+{
+  "name": "stencilJs-setup",
+  "version": "1.0.0",
+  "description": "repo for setting up stencilJs",
+  "main": "index.js",
+  "repository": "https://github.com/DevLuDaley/stencilJs-setup.git",
+  "author": "devludaley <daleyluis@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate"
+  },
+  "dependencies": {
+    "@stencil/core": "^2.9.0"
+  }
+}
